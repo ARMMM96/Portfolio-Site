@@ -1,0 +1,60 @@
+/* *{
+    max-width: 100%;
+} */
+body{
+    margin: 0;
+    padding:0;
+}
+
+.logo{
+    widows: 200px;
+    height: 200px;
+
+}
+
+.header{
+    color: #2d3c49;
+    padding-top: 30px;
+    max-width: 100%;
+}
+
+.bar hr{
+    background: rgba(122, 122, 122, 0.226);
+    height: 2px;    
+    margin: 0;    
+}
+
+.main-image img{
+    width: 100%;
+    border: 2px solid black;
+}
+/* Changeing the color of carousel control */
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+    fill='%23ff0000'
+}
+   
+.carousel-control-next-icon {
+     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.carousel-caption{
+    color:black;
+    background: rgba(122, 122, 122, 0.39);
+}
+.carousel-caption p{
+    color: #fff;
+}
+
+.card-deck{
+    margin-bottom: 150px;
+    max-width: 100%;
+}
+.navbar{
+    width: 100%;
+}
+
+
+nav p{
+    color:#fff;
+    font-size: 30px;
+}
